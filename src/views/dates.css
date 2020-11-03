@@ -1,0 +1,7 @@
+body ul {
+    max-height: 0;
+    transition: max-height 0.5s;
+}
+body ul.show {
+    max-height: 250px;
+}
